@@ -9,11 +9,11 @@
 - 
 ********************************************************************************************************************************************
 50       50        M_I  ,  N_J --------------->/M_I: Number of grid points in x-direction  ,  N_I: Number of grid points in y-direction/
-50     1.D0        L_K  ,  Length              /L_k: Number of grid points in z-direction  ,  Length: Geometry length in z-direction/
-0                  0 = Restart  , 1 = Resume   /0: Running program from t=0  ,  1: Resuming stopped program/
-10000.0            Reynolds                    /Reynolds: Reynolds number/
-10.0   1000        CFL   ,  Writing Step       /Courant-Friedrichs-Lewy  ,  Writing Step: Writung data every 1000 time steps/ 
-3                  Number of CPU Cores         /Number of CPU cores used for parallel solving/
+50     1.D0        L_K  ,  Length------------->/L_k: Number of grid points in z-direction  ,  Length: Geometry length in z-direction/
+0                  0 = Restart  , 1 = Resume-->/0: Running program from t=0  ,  1: Resuming stopped program/
+10000.0            Reynolds------------------->/Reynolds: Reynolds number/
+10.0   1000        CFL   ,  Writing Step------>/Courant-Friedrichs-Lewy  ,  Writing Step: Writung data every 1000 time steps/ 
+3                  Number of CPU Cores-------->/Number of CPU cores used for parallel solving/
 ********************************************************************************************************************************************
 
 - All the required inputs are embedded in the input.ini file. The user only needs to run the executable file Console1.exe and does not need to make any settings inside the Fortran code. These files are located in the following path:
