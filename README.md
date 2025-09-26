@@ -8,7 +8,7 @@
 - The inputs for the desired flow are set through an input file called input.ini, which includes the number of grid points, geometry length, Reynolds number, CFL, and number of cores as below:
 - 
 ********************************************************************************************************************************************
-50       50        M_I  ,  N_J                 /M_I: Number of grid points in x-direction  ,  N_I: Number of grid points in y-direction/
+50       50        M_I  ,  N_J --------------->/M_I: Number of grid points in x-direction  ,  N_I: Number of grid points in y-direction/
 50     1.D0        L_K  ,  Length              /L_k: Number of grid points in z-direction  ,  Length: Geometry length in z-direction/
 0                  0 = Restart  , 1 = Resume   /0: Running program from t=0  ,  1: Resuming stopped program/
 10000.0            Reynolds                    /Reynolds: Reynolds number/
