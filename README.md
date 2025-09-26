@@ -12,7 +12,7 @@
 
 50     1.D0        L_K  ,  Length------------->/L_k: Number of grid points in z-direction  ,  Length: Geometry length in z-direction/
 
-0                  0 = Restart  , 1 = Resume-->/0: Running program from t=0  ,  1: Resuming stopped program/
+0                  0 = Restart  , 1 = Resume----->/0: Running program from t=0  ,  1: Resuming stopped program/
 
 10000.0            Reynolds--------------->/Reynolds: Reynolds number/
 
