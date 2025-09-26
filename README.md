@@ -6,7 +6,7 @@
 - Additionally, statistical calculations, including turbulent kinetic energy, turbulent energy dissipation rate, and Kolmogorov length scales, are carried out.
 - Moreover, an Open-MP feature embedded in the Intel compiler is used to parallelize loop structures in the code. Therefore, to compile the code, a compiler that supports this feature is required;  for example, the Intel compiler.
 - The inputs for the desired flow are set through an input file called input.ini, which includes the number of grid points, geometry length, Reynolds number, CFL, and number of cores as below:
-- 
+
 ********************************************************************************************************************************************
 50       50        M_I  ,  N_J --------------->/M_I: Number of grid points in x-direction  ,  N_I: Number of grid points in y-direction/
 
@@ -16,7 +16,7 @@
 
 10000.0            Reynolds--------------->/Reynolds: Reynolds number/
 
-10.0   1000        CFL   ,  Writing Step------>/Courant-Friedrichs-Lewy  ,  Writing Step: Writung data every 1000 time steps/
+10.0   1000        CFL   ,  Writing Step------>/Courant-Friedrichs-Lewy  ,  Writing Step: Writing data every 1000 time steps/
 
 3                  Number of CPU Cores-------->/Number of CPU cores used for parallel solving/
 ********************************************************************************************************************************************
