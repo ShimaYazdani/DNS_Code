@@ -14,7 +14,7 @@
 
 0                  0 = Restart  , 1 = Resume-->/0: Running program from t=0  ,  1: Resuming stopped program/
 
-10000.0            Reynolds------------------->/Reynolds: Reynolds number/
+10000.0            Reynolds--------------->/Reynolds: Reynolds number/
 
 10.0   1000        CFL   ,  Writing Step------>/Courant-Friedrichs-Lewy  ,  Writing Step: Writung data every 1000 time steps/
 
